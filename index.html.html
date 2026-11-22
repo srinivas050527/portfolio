@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kolli Yajna Srinivas | Software Developer Trainee</title>
+<meta name="description" content="Portfolio of Kolli Yajna Srinivas, BCA final-year student skilled in Python, Flask, MySQL and web development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+<!--
+  EDIT BEFORE PUBLISHING:
+  1. Replace srinivas050527 in the GitHub links with your GitHub username.
+  2. Replace the LinkedIn link with your profile URL.
+-->
+<style>
+:root{
+  --bg:#f4f6f8; --card:#ffffff; --ink:#0e1a2b; --muted:#56657a; --line:#dde3ea;
+  --accent:#0b7a75; --accent-ink:#ffffff; --code-bg:#0e1a2b; --code-ink:#d7e3f1;
+  --kw:#7fd6cf; --str:#f2c879; --com:#7b8aa0;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0a1220; --card:#111c2e; --ink:#e8eef6; --muted:#9aaabd; --line:#22324a;
+    --accent:#4cc9bf; --accent-ink:#06201e; --code-bg:#060c17; }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Sora",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;min-height:56px;flex-wrap:wrap;gap:6px 20px}
+.logo{font-weight:800;text-decoration:none;color:var(--ink)}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;font-size:.92rem}
+nav a:hover{color:var(--accent)}
+section{padding:56px 0 8px}
+h2{font-size:1.5rem;margin:0 0 20px;letter-spacing:-.01em}
+.hero{padding-top:52px;display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:center}
+.hero h1{font-size:clamp(2rem,5vw,3.1rem);line-height:1.1;margin:0 0 14px;letter-spacing:-.03em}
+.hero p{color:var(--muted);margin:0 0 22px;max-width:46ch}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 20px;border-radius:8px;font-weight:600;text-decoration:none;border:1px solid var(--line);color:var(--ink);background:var(--card)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+pre.code{margin:0;background:var(--code-bg);color:var(--code-ink);border-radius:12px;padding:20px;overflow-x:auto;font:.86rem/1.7 ui-monospace,Consolas,Menlo,monospace;border:1px solid var(--line)}
+.kw{color:var(--kw)}.str{color:var(--str)}.com{color:var(--com)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h3{margin:0 0 6px;font-size:1.05rem}
+.card p{margin:0 0 12px;color:var(--muted);font-size:.95rem}
+.card ul{margin:0 0 14px;padding-left:18px;color:var(--muted);font-size:.93rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px;padding:0;list-style:none}
+.tags li{font-size:.8rem;padding:3px 10px;border-radius:99px;border:1px solid var(--line);color:var(--ink)}
+.links a{margin-right:14px;font-weight:600;font-size:.92rem}
+.skills dt{font-weight:600;margin-top:12px}
+.skills dd{margin:2px 0 0;color:var(--muted)}
+.timeline{list-style:none;margin:0;padding:0}
+.timeline li{padding:12px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.timeline li:first-child{border-top:0}
+.timeline span{color:var(--muted)}
+.contact{text-align:center;padding-bottom:56px}
+.contact p{color:var(--muted);max-width:50ch;margin:0 auto 20px}
+footer{border-top:1px solid var(--line);padding:20px 0;color:var(--muted);font-size:.88rem;text-align:center}
+@media (max-width:760px){.hero{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">Yajna Srinivas</a>
+    <nav aria-label="Main">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      <a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <h1>Kolli Yajna Srinivas</h1>
+      <p>BCA final-year student who builds database-driven web apps with Python, Flask and JavaScript. Looking for an entry-level Software Developer role.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="mailto:srinunaiduk369@gmail.com">Email me</a>
+      </div>
+    </div>
+<pre class="code" aria-label="About me as Python code"><span class="kw">class</span> Developer:
+    name = <span class="str">"Kolli Yajna Srinivas"</span>
+    role = <span class="str">"Software Developer Trainee"</span>
+    location = <span class="str">"Bhimavaram, AP"</span>
+    stack = [<span class="str">"Python"</span>, <span class="str">"Flask"</span>,
+             <span class="str">"MySQL"</span>, <span class="str">"JavaScript"</span>]
+    open_to_work = <span class="kw">True</span>   <span class="com"># entry-level roles</span></pre>
+  </div>
+
+  <section id="about" class="wrap">
+    <h2>About</h2>
+    <p>I am completing my Bachelor of Computer Applications (expected Jan 2027). I enjoy turning ideas into working software, from the database tables to the page the user sees. My strengths are logical thinking, data structures and learning new tools quickly.</p>
+  </section>
+
+  <section id="skills" class="wrap">
+    <h2>Skills</h2>
+    <div class="card">
+      <dl class="skills">
+        <dt>Languages</dt><dd>Python, C, Java (basics)</dd>
+        <dt>Web</dt><dd>HTML5, CSS3, JavaScript (ES6), Bootstrap, Flask</dd>
+        <dt>Database</dt><dd>MySQL (basics), SQLite</dd>
+        <dt>Core CS</dt><dd>Data Structures &amp; Algorithms, DBMS, OOPs, Operating Systems</dd>
+        <dt>Tools</dt><dd>Git and GitHub (basics), VS Code</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="projects" class="wrap">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>SpendWise: Expense Tracker</h3>
+        <p>A web app to record daily expenses and see where the money goes.</p>
+        <ul>
+          <li>User register and login with hashed passwords</li>
+          <li>Add, edit, delete expenses with month and category filters</li>
+          <li>Category-wise bar chart and CSV download</li>
+        </ul>
+        <ul class="tags"><li>Python</li><li>Flask</li><li>SQLite</li><li>HTML/CSS</li></ul>
+        <div class="links"><a href="https://github.com/srinivas050527/spendwise-expense-tracker">Code on GitHub</a></div>
+      </article>
+      <article class="card">
+        <h3>Responsive Portfolio Website</h3>
+        <p>The site you are looking at. One HTML file that adapts to phone, tablet and laptop, in light and dark mode.</p>
+        <ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul>
+        <div class="links"><a href="https://github.com/srinivas050527/portfolio">Code on GitHub</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="education" class="wrap">
+    <h2>Education and certifications</h2>
+    <div class="grid">
+      <div class="card">
+        <ul class="timeline">
+          <li><div><strong>BCA</strong><br>Sri Aditya Degree College, Bhimavaram</div><span>Expected Jan 2027</span></li>
+          <li><div><strong>Intermediate (MPC)</strong><br>D.C.H.R.R Junior College</div><span>GPA 7.32</span></li>
+          <li><div><strong>SSC</strong><br>Z.P. High School</div><span>GPA 6.46</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <ul>
+          <li>Pearson MePro: English communication and workplace skills</li>
+          <li>AIML: foundations of AI and machine learning</li>
+          <li>Cisco Networking Academy: IT Essentials and networking</li>
+          <li>HackerRank problem solving and Coursera CS fundamentals</li>
+          <li>Hackathon participant</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap contact">
+    <h2>Let's work together</h2>
+    <p>I am open to entry-level Software Developer roles and internships. Send me an email and I will reply soon.</p>
+    <div class="btns" style="justify-content:center">
+      <a class="btn primary" href="mailto:srinunaiduk369@gmail.com">srinunaiduk369@gmail.com</a>
+      <a class="btn" href="https://github.com/srinivas050527">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/yajna-srinivas-kolli-5662b5341">LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© <span id="year">2026</span> Kolli Yajna Srinivas. Bhimavaram, Andhra Pradesh.</div></footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
